@@ -2,8 +2,6 @@
 
 **Tom Stuckey**  
 
-Dec 2021  
-
 # 1 Introduction
 
 As the United States begins to rebound from the COVID-19 pandemic, there are many interesting happenings at both the macro-economic level and the micro-economic level that economists and econometrists will be likely researching for decades to come. On the micro-economics side, housing is interesting topic. Rocket mortgage explicitly identifies low-mortgage rates, additional remote work opportunities, and a lack of new construction.[1] At time of this writing in late 2021, most metropolitan areas have been experiencing major increases in housing prices in a decidedly strong seller's market. This analysis aims to explain housing inventory as a function of several variables.
@@ -32,25 +30,18 @@ The Ask phase is (or should be the) first phase of any data science process. Thi
 
 More detailed information on the scope of the question and the data sources is available in the notebook [Housing Inventory - Ask](Housing%20Inventory%20-%20Ask.ipynb).
 
-## 3.2 Get 
-
-In the Get phase, of this analysis, the data is pulled from the various repositories, cleaned, and staged in a sqlite database. This is largely achieved through a family of Python scripts. The scripts and overall process employed is described in [Housing Inventory - Get](Housing%20Inventory%20-%20Get.ipynb). 
-
-## 3.3 Explore 
+## 3.2 Explore 
 
 During the Explore phase, the data is first visualized in a number of different ways, and relationships are examined. This where the exploratory data analysis (EDA) should occur and does occur in this analysis. This analysis can be found in [Housing Inventory - Explore](Housing%20Inventory%20-%20Explore.ipynb).
 
-## 3.4 Model  
+## 3.3 Model  
 
 The modeling phase is where the various models are build, refined, validated, and used to make predictions. For this analysis this is where the linear model is constructed and optimized. The technical details are found in [Housing Inventory - Model](Housing%20Inventory%20-%20Model.ipynb). 
 
-## 3.5 Communicate
+## 3.4 Communicate
 
 In the Communicate phase, the overall results are conveyed through a combination of tables and visualizations. In this analysis, the overall process is briefly revisited for holistic context in addition to the overall results. There are two elements to the Communicate phase for this analysis. [Housing Inventory Out-Brief](Housing%20Inventory%20-%20Out-Brief.pdf) contains the out-brief slides, and [YouTube](https://youtu.be/SUOOavVuJk0) provides a narrated version of the results of the housing inventory analysis. 
 
-# 4 Conclusion  
-
-This README overview is just the high-level overview of the housing inventory analysis effort. As mentioned above, please find the bundled notebook aligned to each particular area of the analysis for technical specfics, or, alternatively, pleas refernce the final report for an overview of the analysis in its entirety along with the conclusion.
 
 ---
 
