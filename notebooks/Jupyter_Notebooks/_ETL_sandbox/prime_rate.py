@@ -1,5 +1,5 @@
 import openpyxl as op
-import basic_helpers
+import basic_helpers as hp
 from datetime import datetime
 
 master_tab = 'Sheet1'
@@ -42,9 +42,9 @@ def fill_db(t_entries: list, db: dict) -> None:
 
 def main(t_db_file = db_file):
     prime_rates= get_info(src_file)
-    db_ref = helpers.create_connection(t_db_file)
+    db_ref = hp.create_connection(t_db_file)
     fill_db(prime_rates, db_ref)
-    helpers.close_connection(db_ref['con'])
+    hp.close_connection(db_ref['con'])
     return
 
 

@@ -1,4 +1,4 @@
-import basic_helpers
+import basic_helpers as hp
 
 db_file = '../_data/housing_inventory.db'
 
@@ -30,9 +30,9 @@ def build_main_table(db_ref: dict) -> None:
 
 
 def main(t_db_file= db_file):
-    db_ref = helpers.create_connection(t_db_file)
+    db_ref = hp.create_connection(t_db_file)
     build_main_table(db_ref)
-    helpers.close_connection(db_ref['con'])
+    hp.close_connection(db_ref['con'])
     return
 
 

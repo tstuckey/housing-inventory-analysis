@@ -1,5 +1,5 @@
 import pandas as pd
-import basic_helpers
+import basic_helpers as hp
 
 src_csv = '../_data/src data/RDC_Inventory_Core_Metrics_Metro_History.csv'
 db_file = '../_data/housing_inventory.db'
@@ -36,9 +36,9 @@ def fill_db(t_df: pd.DataFrame, db: dict) -> None:
 
 def main(t_db_file=db_file):
     housing_inventory_df = get_info(src_csv)
-    db_ref = helpers.create_connection(t_db_file)
+    db_ref = hp.create_connection(t_db_file)
     fill_db(housing_inventory_df, db_ref)
-    helpers.close_connection(db_ref['con'])
+    hp.close_connection(db_ref['con'])
     return
 
 

@@ -1,5 +1,5 @@
 import openpyxl as op
-import basic_helpers
+import basic_helpers as hp
 
 master_tab = 'MSA Units'
 
@@ -62,11 +62,11 @@ def fill_db(t_entries: list, db: dict) -> None:
 
 def main(t_db_file = db_file):
     padded_months = get_padded_months()
-    db_ref = helpers.create_connection(t_db_file)
+    db_ref = hp.create_connection(t_db_file)
     for spreadsheet in excel_files:
          permits = get_spreadsheet_info(spreadsheet, padded_months)
          fill_db(permits, db_ref)
-    helpers.close_connection(db_ref['con'])
+    hp.close_connection(db_ref['con'])
     return
 
 
