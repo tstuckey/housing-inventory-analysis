@@ -6,7 +6,7 @@ import os
 
 db_path = '../../_data/'
 db_url = 'https://storage.googleapis.com/housing-inventory-storage.simplifyingcomplexspaces.com/'
-db_name = 'housing_inventory.db'
+db_name = '20211214_housing_inventory.db'
 md5_val = '983701daac8846f3fcf3f93d73d2f1f9'
 
 
