@@ -12,11 +12,26 @@ This repository contains the setup to analyze housing inventory data using a bas
 docker compose -f compose-scs-jupyter.yml up
 ```
 
--   Navigate to the local web interface for the application: [localhost:7321](http://localhost:7321)
--   In the lower right files panel, click `notebooks` ![fig1](./images/notebooks_ref.png)
--   Next, click 'Jupyter_Notebooks\` ![fig2](./images/R_Notebooks_ref.png)
--   Then, click `Housing Inventory - Explore` to explore the data
--   Then, click `Housing Inventory - Model` to model the data
+### Navigate to the local web interface for the application: 
+[localhost:7321](http://localhost:7321)  
+
+### In the left panel, click the `work` folder 
+![fig1](./images/work_folder.png)  
+
+### Next click the `notebooks` folder 
+![fig2](./images/notebooks_folder.png)  
+
+### To walk through an exploration of the data, click `Housing Inventory - Explore`
+![fig3](./images/explore_notebook.png)  
+
+### To re-run the notebook, click the arrows  to open the notebook   
+![fig4](./images/explore_notebook_run.png)  
+
+### To walk through the development of a model and some predictive modeling, click `Housing Inventory - Model`
+![fig3](./images/notebooks_folder.png)  
+
+### To re-run the notebook, click the arrows to open the notebook   
+![fig4](./images/model_notebook_run.png)  
 
 ## Shutdown  
 -   Open a new command line / terminal and navigate to where you cloned the directory
