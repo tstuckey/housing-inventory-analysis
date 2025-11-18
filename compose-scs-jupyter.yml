@@ -5,6 +5,7 @@ services:
     ports:
       - "7321:8888"
     volumes:
+      - "./_admin:/home/jovyan/_admin"
       - "./_data:/home/jovyan/_data"
       - "./notebooks/Jupyter_Notebooks:/home/jovyan/work/notebooks"
     restart: unless-stopped
