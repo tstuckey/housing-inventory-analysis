@@ -193,3 +193,5 @@ fabric.properties
 
 # Databases
 *.db
+
+*.swp
