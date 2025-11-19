@@ -73,6 +73,6 @@ def close_connection(db_conn: sq.Connection) -> None:
 if __name__ == "__main__":
     # change the working directory to the Jupyter_Notebooks directory which is the same context the
     # the Jupyter Notebooks and foundational iPython are executing from; this enables the relative pathing to work the same
-    os.chdir( '..')
+    os.chdir('')
     print('Working Directory:\t' + str(os.getcwd()))
     get_and_check_db_file()
