@@ -4,7 +4,7 @@ import hashlib as hl
 import sqlite3 as sq
 import os
 
-db_path = '../../_data/'
+db_path = '../_data/'
 db_url = 'https://storage.googleapis.com/housing-inventory-storage.simplifyingcomplexspaces.com/'
 db_name = '20211214_housing_inventory.db'
 md5_val = '983701daac8846f3fcf3f93d73d2f1f9'
@@ -27,9 +27,9 @@ def get_and_check_db_file(local_filename=db_path + db_name,
     Check the file hash is correct. If it's not right, try downloading it; then check the hash again
     :return:
     """
-    # print('\nFrom convenience routine, Working Directory is:\t' + str(pl.Path.cwd()))
-    # print('\nFrom convenience routine,  local file name is:\t' + local_filename + ' and pl.Path version is:\t' +
-    #      str(pl.Path(local_filename)) + '\n')
+    print('\nFrom convenience routine, Working Directory is:\t' + str(pl.Path.cwd()))
+    print('\nFrom convenience routine,  local file name is:\t' + local_filename + ' and pl.Path version is:\t' +
+          str(pl.Path(local_filename)) + '\n')
 
     if not pl.Path(local_filename).exists():
         urlretrieve(full_url, local_filename)

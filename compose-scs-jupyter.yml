@@ -7,5 +7,5 @@ services:
     volumes:
       - "./_admin:/home/jovyan/_admin"
       - "./_data:/home/jovyan/_data"
-      - "./notebooks/Jupyter_Notebooks:/home/jovyan/work/Jupyter_Notebooks"
+      - "./notebooks:/home/jovyan/notebooks"
     restart: unless-stopped
