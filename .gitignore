@@ -156,7 +156,7 @@ cython_debug/
 
 # R and RNotebook
 .Rhistory
-*.Rproj/
+*.Rproj
 .Rproj.user/
 *.aux
 *.html
