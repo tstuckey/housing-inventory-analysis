@@ -5,7 +5,7 @@ import building_permits as bp
 import prime_rate as pr
 import build_aggregate_table as agg
 
-db_file = '../_data/housing_inventory.db'
+db_file = '../../_data/housing_inventory.db'
 
 
 def populate_db(t_db_file = db_file):
