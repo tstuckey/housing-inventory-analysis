@@ -4,7 +4,7 @@ from datetime import datetime
 
 master_tab = 'FRB_G19'
 
-src_file = '../_data/src data/Revolving Credit.xlsx'
+src_file = '../../_data/src data/Revolving Credit.xlsx'
 db_file = '../../_data/src data/housing_inventory.db'
 
 

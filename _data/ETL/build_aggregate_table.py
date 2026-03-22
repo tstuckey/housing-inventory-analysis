@@ -1,6 +1,6 @@
 import basic_helpers as hp
 
-db_file = '../_data/housing_inventory.db'
+db_file = '../../_data/housing_inventory.db'
 
 
 def build_main_table(db_ref: dict) -> None:

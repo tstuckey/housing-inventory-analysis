@@ -8,7 +8,7 @@ excel_files = ['../../_data/src data/building permits/2019 building permits.xlsx
                '../../_data/src data/building permits/2016 units.xlsx',
                '../../_data/src data/building permits/2017 units.xlsx',
                '../../_data/src data/building permits/2018 units.xlsx']
-db_file = '../_data/housing_inventory.db'
+db_file = '../../_data/housing_inventory.db'
 
 
 def get_padded_months() -> list:

@@ -1,8 +1,8 @@
 import pandas as pd
 import basic_helpers as hp
 
-src_csv = '../_data/src data/RDC_Inventory_Core_Metrics_Metro_History.csv'
-db_file = '../_data/housing_inventory.db'
+src_csv = '../../_data/src data/RDC_Inventory_Core_Metrics_Metro_History.csv'
+db_file = '../../_data/housing_inventory.db'
 main_columns = ['month_date_yyyymm', 'cbsa_code', 'cbsa_title', 'total_listing_count']
 
 

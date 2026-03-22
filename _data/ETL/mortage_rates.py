@@ -4,8 +4,8 @@ from datetime import datetime
 
 master_tab = 'Full History'
 
-src_file = '../_data/src data/historical weekly mortgage data.xlsx'
-db_file = '../_data/housing_inventory.db'
+src_file = '../../_data/src data/historical weekly mortgage data.xlsx'
+db_file = '../../_data/housing_inventory.db'
 
 
 def get_info(t_file: str) -> list:
