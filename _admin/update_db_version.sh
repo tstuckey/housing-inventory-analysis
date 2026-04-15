@@ -6,7 +6,7 @@ logging_enabled=1
 # We're expecting exactly one parameter, the name of the database,
 # and that it ends in .db
 if [[ "${#}" -ne 1 ]]; then
-  echo "Usage: update_db_version.sh ./_data/db_name.db"
+  echo "Usage: update_db_version.sh ../_data/db_name.db"
   exit 0 
 elif [[ ${1} != *.db ]]; then
   echo "Enter a valid .db name"
